@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Form from "./components/Form";
+import Form from "./Form";
 import { v4 as uuidv4 } from "uuid";
-import Filter from "./components/Filter";
-import ContactList from "./components/ContactList";
+import Filter from "./Filter";
+import ContactList from "./ContactList";
 import styled from "styled-components";
 
 const H2 = styled.h2`
@@ -12,8 +12,6 @@ const H2 = styled.h2`
 const P = styled.p`
 display:block;
 text-align:center;`
-
-// uuidv4(); // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'
 
 class App extends Component {
   state = {
