@@ -1,6 +1,6 @@
 {
   "name": "phonebook",
-  "homepage": "https://IC3CLD.github.io/phonebook",
+  "homepage": "https://IC3CLD.github.io/goit-react-hw-03-phonebook",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
